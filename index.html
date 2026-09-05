@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>المهارات الرقمية ✨ - أ. فاطمة القحطاني</title>
+    <title>المهارات الرقمية ✨ - أ. فاطمة سالم القحطاني</title>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
@@ -488,7 +488,7 @@
 
         <h2 class="hero-title">أَهْلًا بِكِ يَا بَطَلَةَ المَهَارَاتِ الرقمية! 🌸</h2>
         <p class="hero-desc">
-            استعدي لإظهار ذكائك ومعرفتك الرقمية مع معلمتكِ المتميزة <span class="teacher-highlight">فاطمة القحطاني</span>! ✨
+            استعدي لإظهار ذكائك ومعرفتك الرقمية مع معلمتكِ المتميزة <span class="teacher-highlight">فاطمة سالم القحطاني</span>! ✨
         </p>
 
         <label class="input-label" for="student-name-input">اكتبي اسمكِ يا بطلة (للتشجيع الصوتي):</label>
@@ -549,10 +549,10 @@
         <button class="primary-cta-btn" onclick="location.reload()">طالبة أخرى 🔄</button>
     </div>
 
-    <!-- البطاقة الرابعة: لوحة المعلمة فاطمة القحطاني (العشر الأوائل والرسم البياني) -->
+    <!-- البطاقة الرابعة: لوحة المعلمة فاطمة سالم القحطاني (العشر الأوائل والرسم البياني) -->
     <div class="inner-sheet teacher-view" id="screen-admin">
         <h2 style="color:var(--purple-text); font-weight:900; margin-bottom:12px; text-align:center;">
-            📊 لوحة المعلمة: فاطمة القحطاني
+            📊 لوحة المعلمة: فاطمة سالم القحطاني
         </h2>
 
         <h4 style="color:#A03993; margin:16px 0 8px;">🌟 العشر الأوائل (لوحة الشرف):</h4>
@@ -764,7 +764,7 @@
     // فتح لوحة المعلمة
     function openTeacherAdmin() {
         const pin = prompt("أهلاً أ. فاطمة، فضلاً أدخلي الرمز السري:");
-        if (pin === "1234") {
+        if (pin === "1208") {
             document.getElementById('screen-start').style.display = 'none';
             document.getElementById('screen-quiz').style.display = 'none';
             document.getElementById('screen-result').style.display = 'none';
@@ -824,7 +824,7 @@
         const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
         const a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = "درجات_طالبات_رابع_فاطمة_القحطاني.csv";
+        a.download = "درجات_طالبات_رابع_فاطمة_سالم_القحطاني.csv";
         a.click();
     }
 </script>
